@@ -11,7 +11,7 @@ We achieve this by building a Linear Regression model.
 We use a hybrid combination of RFE and manual feature selection using P-values and VIF of predictors.
 
 ## Model Building
-We build a linear regression model for predicting 'cnt', which is the count of total rental bikes including both casual and registered.
+We build a linear regression model for predicting `cnt`, which is the count of total rental bikes including both casual and registered.
 
 ## Model Evaluation
 We use R-squared score on the test set to evaluate our final model
@@ -28,3 +28,8 @@ We shall visualize and validate our assumptions in this project.
 ## Business Goal
 Our model will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
+## Running the code
+- The data is present in `day.csv`.
+- To understand the data, please read `Data_Readme.txt`
+- Download the repository, making sure that `day.csv` and `Bike Sharing Analysis.ipynb` are in the same folder.
+- Now you can run the whole Notebook (`Bike Sharing Analysis.ipynb`) from top to bottom.
